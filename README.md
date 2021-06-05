@@ -37,7 +37,7 @@ cp default site2.conf
 ```
 ## Step3: Change content of site1 -> siteN.conf
 
-## site1
+### site1
 ```
 vi site1.conf
 ```
@@ -67,7 +67,7 @@ server {
 That config mean: site1.com point to localhost:3000
 
 
-## site2
+### site2
 ```
 vi site2.conf
 ```
