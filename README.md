@@ -1,5 +1,5 @@
 # how-to-config-nginx-for-many-website
-how to config nginx for many website
+how to config nginx for many website (áp dụng cho tất cả các loại webserver có port run: nodejs + flask+ laravel)
 
 
 ## Step0: Create and run 2 app flask at port 3000 and 3001
