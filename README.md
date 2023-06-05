@@ -49,8 +49,6 @@ server {
 
         server_name site1.com;
 
-        root /var/www/example.com;
-        index index.html;
 
         location / {
                 proxy_pass http://localhost:3000; #whatever port your app runs on
@@ -78,9 +76,6 @@ server {
         listen [::]:80;
 
         server_name site2.com;
-
-        root /var/www/example.com;
-        index index.html;
 
         location / {
                 proxy_pass http://localhost:3001; #whatever port your app runs on
